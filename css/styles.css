@@ -1,5 +1,5 @@
 #Title{
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 #LinkText{
@@ -76,4 +76,10 @@
 }
 #conclusionText{
     font-size: 40px;
+}
+@media(max-width: 800px){
+    #LinkText{
+        font-size: 50px;
+        margin-top: 100px;
+    }
 }
