@@ -1,58 +1,73 @@
+.nav-bar{
+    background: yellow;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navi{
+    display: flex;
+    list-style: none;
+}
+img {
+    border-radius: 5px 5px 0 0;
+}
+
 #Title{
     margin-top: 100px;
 }
 
 #LinkText{
     font-size: 40px;
+    color: black;
 }
+
+#LinkText:hover{
+ color: white;
+}
+
 #problemText{
     font-size: 40px;
 }
+
 #probimg{
     border-radius: 9px;
     box-shadow: 20px 11px 16px 0px rgba(0,0,0,0.75);
 }
+
 #imgcard{
     border-radius: 9px;
 }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
     border-radius: 5px;
     margin: 10px;
-  }
+
+}
   
-  .card:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  img {
-    border-radius: 5px 5px 0 0;
-  }
-  
-  .container {
+} 
+
+.container {
     padding: 2px 16px;
-  }
-.card_about {
-    box-shadow: 20px 11px 16px 0px rgba(0,0,0,0.75);
-    transition: 0.3s;
-    width: 90%;
-    border-radius: 5px;
-    margin: 10px;
-  }
-  
-  
+}
   
 #Tools{
-      display: flex;
-      flex-wrap: wrap;
-  }
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
 #Hardware{
     display: flex;
     flex-wrap: wrap;
 }
+
 #problemText2{
     font-size: 40px;
 }
@@ -66,6 +81,15 @@
     font-style: italic;
     margin: 10px;
 }
+
+#Top_link{
+    color: black;
+}
+#Top_link:hover{
+    text-decoration: none;
+}
+
+
 #solutionText{
     font-size: 40px;
 }
@@ -74,14 +98,49 @@
     font-weight: bold;
     font-size: 40px;
 }
+
 #conclusionText{
     font-size: 40px;
 }
+
+.card_about {
+    box-shadow: 20px 11px 16px 0px rgba(0,0,0,0.75);
+    transition: 0.3s;
+    width: 90%;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#Footer{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    background: yellow;
+    width: 100%;
+    margin-top: 30px;
+  
+}
+
 @media(max-width: 800px){
+
+.navi{
+    display: flex;
+    flex-wrap: wrap;
+}
+#Title{
+    padding-top: 30px;
+}
+    
     #LinkText{
-        font-size: 40px;
+        font-size: 30px;
+        
     }
+
     #Title{
-        margin-top: 200px;
+        margin-top: 110px;
+   }
+   
+   #Footer{
+       font-size: 20px;
    }
 }
