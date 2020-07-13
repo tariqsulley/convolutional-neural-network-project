@@ -1,4 +1,4 @@
-var button = document.getElementById("Top_Btn");
+var button = document.getElementById("Top_btn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
