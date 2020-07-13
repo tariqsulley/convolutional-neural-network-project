@@ -19,7 +19,7 @@ img {
 }
 
 #LinkText{
-    font-size: 40px;
+    font-size: 20px;
     color: black;
 }
 
@@ -28,7 +28,7 @@ img {
 }
 
 #problemText{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #probimg{
@@ -69,15 +69,15 @@ img {
 }
 
 #problemText2{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #ConvText{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #Quote{
-    font-size: 30px;
+    font-size: 10px;
     font-style: italic;
     margin: 10px;
 }
@@ -91,16 +91,16 @@ img {
 
 
 #solutionText{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #Hardware_Msg{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #conclusionText{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .card_about {
@@ -112,7 +112,7 @@ img {
 }
 
 #Footer{
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     color: black;
     background: yellow;
