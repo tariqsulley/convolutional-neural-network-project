@@ -18,11 +18,11 @@ img {
 }
 
 #Title{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #LinkText{
-    font-size: 40px;
+    font-size: 16px;
     color: black;
     font-family: Comic Sans Ms;
 }
@@ -32,7 +32,7 @@ img {
 }
 
 #problemText{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #probimg{
@@ -73,15 +73,15 @@ img {
 }
 
 #problemText2{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #ConvText{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #Quote{
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
     margin: 10px;
 }
@@ -125,16 +125,16 @@ img {
     background-color: #555;
   }
 #solutionText{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #Hardware_Msg{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #conclusionText{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .card_about {
@@ -146,7 +146,7 @@ img {
 }
 
 #Footer{
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     color: black;
     background: yellow;
@@ -166,12 +166,12 @@ img {
 }
     
     #LinkText{
-        font-size: 30px;
+        font-size: 20px;
         
     }
 
     #Title{
-        margin-top: 110px;
+        margin-top: 70px;
    }
    
    #Footer{
