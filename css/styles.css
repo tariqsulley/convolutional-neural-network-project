@@ -154,8 +154,11 @@ img {
     margin-top: 30px;
   
 }
-
-@media(max-width: 800px){
+#map{
+ display: none;
+ visibility: hidden;
+}
+    @media(max-width: 800px){
 
 .navi{
     display: flex;
